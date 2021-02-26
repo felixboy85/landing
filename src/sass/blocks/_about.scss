@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+}
+
+.about__wrapper {
+    height: 725px;
+    display: flex;
+}
+
+.about__text {
+    width: 740px;
+}
+
+.supheader {
+    margin-top: 190px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff6d6d;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    &--center {
+        padding-top: 136px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.header__title {
+    margin-top: 17px;
+    max-width: 530px;
+
+    font-size: 40px;
+    font-weight: 500;
+    span {
+        color: #ff6d6d;
+    }    
+    &--center {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.about__descr  {
+    margin-top: 44px;
+    max-width: 570px;
+}
+
+.about__photo {
+    width: 567px;
+    background: url('../img/about_bg.jpg') center (center / cover) no-repeat;
+}

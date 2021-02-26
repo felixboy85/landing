@@ -1,0 +1,37 @@
+.feuters {
+    height: 675px;
+    background: url('../img/feauters-bg.jpg') center (center / cover) no-repeat;
+}
+
+.feauters__text {
+    padding: 0 auto auto auto;
+}
+
+.feauters__wrapper {
+    padding: 0 15px;
+    margin-top: 91px;
+    display: flex;
+}
+
+.feauters__item {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.feauters__icon {
+    width: 65px;
+    height: 65px;
+}
+
+.feauters__header {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+
+.feauters__descr {
+    margin-top: 20px;
+}
