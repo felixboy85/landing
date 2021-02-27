@@ -1,0 +1,28 @@
+.design {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: url('../img/design-bg.jpg') center (center / cover) no-repeat;
+}
+
+.design__info {
+    display: flex;
+}
+
+.design__icon {
+    position: absolute;
+    display: block;
+    top: 100px;
+    left: 70px;
+}
+
+.disign__descr {
+    position: absolute;
+    max-width: 498px;
+    // top: 140px;
+    left: 735px;
+}
+
+.design__descr {
+    margin-top: 50px;
+}
